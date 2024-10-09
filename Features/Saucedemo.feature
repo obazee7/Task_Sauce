@@ -6,5 +6,5 @@ Scenario: Add highest item to cart
 	And user login with the following creds
 	| userName      | password     |
 	| standard_user | secret_sauce |
-	When user select the highest price item and add to cart
+	When user select the option 'second' price item and add to cart 
 	Then item cart count is 1

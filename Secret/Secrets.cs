@@ -10,4 +10,10 @@ namespace Task_Sauce.Secret
     //Example2 - class file
     //initialize.SetTextToUserName(Secrets.userName);
     //initialize.SetTextToPassword(Secrets.password);
+
+
+    ////Resource example
+    //initialize.SetTextToUserName(ResourseSecret.username);
+    //initialize.SetTextToPassword(ResourseSecret.password);
+    //initialize.ClickLoginButton();
 }
